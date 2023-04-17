@@ -1,0 +1,34 @@
+.block_element {
+  color: white;
+  width: 355px;
+  background-color: rgba(5, 27, 35, 0.623);
+  margin-left: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 35px;
+}
+
+section {
+  background-color: grey;
+  padding: 25px;
+  background-image: url("../images/background.jpg");
+  background-size: 180%;
+  background-repeat: no-repeat;
+}
+img {
+  width: 200px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 4%;
+  -webkit-appearance: none;
+  /* max-width: 330px; */
+  box-sizing: border-box;
+}
+h3 {
+  margin: 10px 0px;
+}
+.submit {
+  margin-top: 20px;
+}

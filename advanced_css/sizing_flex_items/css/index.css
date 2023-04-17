@@ -1,0 +1,25 @@
+.flexItem {
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+  }
+  .flexContainer {
+    display: flex;
+    height: 400px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+  }
+  .justifyContent {
+    justify-content: center;
+  }
+  .perfectlyCentered {
+    justify-content: center;
+    align-items: center;
+  }
+  .alignItems {
+    align-items: center;
+  }
+  
