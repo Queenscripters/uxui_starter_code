@@ -1,0 +1,40 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+}
+.left {
+  float: left;
+  height: 500px;
+  background-color: #96ACB7;
+  width: 30%;
+  text-align: center;
+}
+.right {
+  float: left;
+  background-color:#36558F;
+  height: 500px;
+  width: 70%;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  background-color: #c6c6c68b;
+  border-radius: 5px;
+  height: 200px;
+  width: 150px;
+  margin: 35px;
+  margin-top: 50px;
+}
+
+a{
+  color:#40376E
+}
+
+a:hover{
+  color: #48233C
+}

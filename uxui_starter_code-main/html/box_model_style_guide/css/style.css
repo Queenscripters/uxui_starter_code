@@ -1,0 +1,47 @@
+ /* Header Styles */
+ .header {
+    height: 250px;
+    max-height: 500px;
+    background-image: url(../images/upsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  #pageTopic {
+     text-align: center;
+  }
+   /* Primary Color */
+   .colorContainer {
+       display: inline-block;
+       margin: 15px;
+   }
+   .swatch {
+      height: 200px;
+      width: 170px;
+      border: 1px solid black;
+  }
+  .hexCode {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid black;
+      border-top: none;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+  }
+  /* Typography CSS */
+  .type_container {
+      display: inline-block;
+      margin: 20px;
+  }
+  
+  /* UI Elements */
+  .button {
+      display: inline-block;
+      padding: 15px;
+      margin: 15px;
+      width: 150px;
+      text-align: center;
+      color: white;
+      outline: 1px solid red;
+  }
+  
