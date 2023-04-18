@@ -5,4 +5,4 @@
 - Clicking Repository at the top menu of GitHub Desktop 
 - Select Pull option 
 
-![pull]("./pull.png")
+![pull](./pull.png)
