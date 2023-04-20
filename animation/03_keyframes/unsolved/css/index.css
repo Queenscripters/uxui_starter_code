@@ -1,0 +1,109 @@
+.bounceMe {
+  /* Add the animation bounceArrow here */
+
+}
+.spinMe {
+  /* Add the animation for spin on the line below  */
+
+}
+#progressbar {
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 61px;
+  padding: 3px;
+}
+#progressbar > .orangeBar {
+  background-color: red;
+  width: 40%;
+  height: 20px;
+  border-radius: 5px;
+  /* add the animation name here for the progress bar */
+}
+.movingBox {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  /* Add the animation name here to mox the box */
+
+}
+
+
+@keyframes bounceArrow {
+  from {
+
+  }
+  50% {
+
+  }
+  to {
+
+  }
+}
+
+@keyframes spin {
+  from {
+
+  }
+  to {
+
+  }
+}
+
+@keyframes loadBar {
+  from {
+
+  }
+  to {
+
+  }
+}
+
+@keyframes movingBox {
+  from {
+
+  }
+  25% {
+
+  }
+  50% {
+
+  }
+  75% {
+
+  }
+  to {
+
+  }
+}
+
+
+/* these values are used to display the grid and items*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "arrow preload"
+  "loadingBar loadingBar"
+  "boxMove boxMove"
+  ;
+}
+.gridChild {
+  margin: 15px;
+  padding: 15px;
+  height: 200px;
+}
+.arrow {
+  grid-area: arrow;
+  text-align: center;
+}
+.preload {
+  grid-area: preload;
+  text-align: center;
+}
+.loadingBar {
+  grid-area: loadingBar;
+}
+.boxMove {
+  grid-area: boxMove;
+}

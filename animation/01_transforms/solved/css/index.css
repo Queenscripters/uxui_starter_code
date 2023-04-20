@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "rotate"
+  "scale"
+  "translate"
+  ;
+}
+.rotate {
+  grid-area: rotate;
+  text-align: center;
+}
+.rotate img {
+  transform: rotate(180deg);
+}
+.scale {
+  grid-area: scale;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+.scaleMe {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 0 auto;
+  transform: scale(2);
+}
+.translate {
+  grid-area: translate;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+.moveMe {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transform: translate(80%, 40%);
+}
+
+.gridChild {
+  background-color: lightgrey;
+  border: 1px solid lightblue;
+  margin: 15px 0px;
+}
