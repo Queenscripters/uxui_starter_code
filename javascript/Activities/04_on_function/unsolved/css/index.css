@@ -1,0 +1,27 @@
+div {
+  margin: 15px;
+}
+.button {
+  background-color: lightGrey;
+  padding: 15px;
+  cursor: pointer;
+  text-align:center;
+  max-width: 150px;
+}
+.hideMe {
+ background-color: red;
+ height: 150px;
+ width: 150px;
+}
+.cssChange {
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+}
+.appendMe {
+  outline: 1px solid red;
+}
+.child {
+  background-color: grey;
+  text-align: center;
+}
