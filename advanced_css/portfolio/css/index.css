@@ -32,3 +32,10 @@ h3 {
 .submit {
   margin-top: 20px;
 }
+
+
+@media screen and (max-width:600px){
+  .nav{
+    background-color: gray;
+  }
+}

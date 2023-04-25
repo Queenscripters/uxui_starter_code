@@ -8,8 +8,6 @@ HTML comment that reads <!--  My UX Skills section coded using CSS flex --> .
 Look for a shared repo link.
 ### PART THREE: Update CSS to also use CSS grid 
 the section under the HTML comment “My Work Section Constructed using CSS Grid”.
-### PART FOUR: Create basic HTML structure for a Navbar, Hero Image and Footer
-Look for a shared index.html file.
-### PART FIVE: Make site responsive on mobile devices
+### PART FOUR: Make site responsive on mobile devices
 Use the mobile device from the inspect tool to ensure that the site is mobile responsive 
-### PART SIX: Use mobile media query 
+### PART FIVE: Use mobile media query 
